@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+*.dll
+*.exe
+*.pyd
+*.dylib
+*.class
+*.jar
+*.zip
+*.tar.gz
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn

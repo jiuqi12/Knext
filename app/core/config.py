@@ -1,1 +1,0 @@
-# 全局配置（数据库url、kubeconfig路径等）

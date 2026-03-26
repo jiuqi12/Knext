@@ -7,6 +7,11 @@ from app.core.security import get_password_hash, verify_password
 
 
 class UserService:
+    # 用户登录
+    @staticmethod
+    async def user_login(username: str, password: str):
+        pass
+
     # 创建用户，成功则返回用户数据
     @staticmethod
     async def create_user(user):

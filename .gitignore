@@ -8,12 +8,14 @@ __pycache__/
 *.so
 *.dll
 *.exe
-*.pyd
 *.dylib
 *.class
 *.jar
 *.zip
 *.tar.gz
+
+# test
+test/
 
 # Environment files
 .env

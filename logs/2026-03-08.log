@@ -1,0 +1,43 @@
+2026-03-08 18:41:04 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 18:41:04 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 18:53:03 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 18:53:03 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:15:38 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:15:38 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:15:40 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:15:40 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:55:53 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:55:53 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:56:14 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:56:14 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:57:21 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:57:21 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:57:23 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:57:23 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:57:27 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:57:27 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:58:34 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:58:34 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 19:59:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 19:59:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:00:19 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:00:19 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:00:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:00:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:00:44 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:00:44 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:00:55 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:00:55 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:01:13 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x00000258054AC400>
+2026-03-08 20:01:14 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-08 20:01:14 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}]
+2026-03-08 20:01:38 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:01:38 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:01:41 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:01:41 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:04:40 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:04:40 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:04:41 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:04:41 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-08 20:04:51 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-08 20:04:51 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）

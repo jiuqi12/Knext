@@ -1,0 +1,124 @@
+2026-03-14 13:28:33 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 13:28:33 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 13:35:04 - Knext - [WARNING] - metrics-server 不可用，请安装metrics-server
+2026-03-14 13:35:04 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-14 13:35:11 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 13:35:11 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 13:35:11 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 13:35:33 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 13:35:33 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 13:35:33 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 13:35:43 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 13:35:43 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 13:35:43 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 13:35:48 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 13:35:48 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 13:35:48 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 13:37:30 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 13:37:30 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 13:37:30 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:45:17 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:45:17 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:45:17 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:48:36 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:48:36 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:48:36 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:48:54 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:48:54 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:48:54 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:49:56 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:49:56 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:49:56 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:51:16 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:51:16 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:51:16 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:55:39 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:55:39 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:55:39 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 14:57:25 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 14:57:25 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 14:57:25 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 15:20:31 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 15:20:31 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 15:20:31 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 15:20:36 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 15:20:36 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 15:20:36 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 15:21:38 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 15:21:38 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 15:21:38 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 15:46:50 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000027BC61C9060>
+2026-03-14 15:46:50 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 15:46:50 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 20:25:16 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 20:25:16 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 20:25:27 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 20:25:27 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 20:25:27 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 20:25:58 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 20:25:58 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 20:25:58 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:17:13 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:17:13 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:17:13 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:19:55 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:19:55 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:19:55 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:20:55 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:20:55 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:20:55 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:32:52 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:32:52 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:32:52 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:36:46 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:36:46 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:36:46 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:36:55 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:36:55 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:36:55 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:38:26 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:38:26 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:38:26 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:38:29 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:38:29 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:38:29 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:46:17 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:46:17 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:46:17 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:48:44 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:48:44 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:48:44 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:49:10 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:49:10 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:49:10 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 21:53:05 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x000001ABF2719060>
+2026-03-14 21:53:05 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-14 21:53:05 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'gitee', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}, {'name': 'monitor', 'status': 'Active'}, {'name': 'poc', 'status': 'Active'}, {'name': 'velero', 'status': 'Terminating'}]
+2026-03-14 22:33:59 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:33:59 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:34:00 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:34:00 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:36:34 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:36:34 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:41:12 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:41:12 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:41:17 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:41:17 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:46:18 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:46:18 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:46:19 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:46:19 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:49:57 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:49:57 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:51:17 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:51:17 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:51:18 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:51:18 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:56:19 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:56:19 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:56:20 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:56:20 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 22:56:35 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 22:56:35 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-14 23:59:40 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-14 23:59:40 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）

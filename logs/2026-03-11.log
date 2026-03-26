@@ -1,0 +1,80 @@
+2026-03-11 10:27:56 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 10:27:56 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 10:28:07 - Knext - [WARNING] - metrics-server 不可用，请安装metrics-server
+2026-03-11 10:28:07 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 11:07:23 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 11:07:23 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 11:07:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 11:07:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 11:12:25 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 11:12:25 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 11:12:26 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 11:12:26 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 11:12:28 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 11:12:28 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 12:43:51 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 12:43:51 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 12:43:52 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 12:43:52 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 12:44:07 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 12:48:53 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 12:48:53 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 12:48:55 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 12:48:55 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 12:58:55 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 12:58:55 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:01:08 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:01:08 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:01:18 - Knext - [ERROR] - 获取集群概览失败：unsupported operand type(s) for +=: 'int' and 'str'
+2026-03-11 13:02:35 - Knext - [ERROR] - 获取集群概览失败：unsupported operand type(s) for +=: 'int' and 'str'
+2026-03-11 13:02:44 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:02:44 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:02:45 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:02:45 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:02:48 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:03:49 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:03:49 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:39:10 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:39:10 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:43:36 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:43:55 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:43:55 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:43:57 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:43:57 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:44:06 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:44:06 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:44:10 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:47:04 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:47:04 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:47:10 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:48:25 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:48:25 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:48:27 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:49:01 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:49:01 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:49:06 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:50:06 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:50:06 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:50:31 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:52:48 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:52:48 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:52:55 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 13:55:06 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:55:06 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:58:04 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:58:04 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:58:33 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 13:58:33 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 13:58:58 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:01:53 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 14:01:53 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 14:01:58 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:04:07 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:05:29 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:10:16 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:10:49 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:13:19 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-11 14:13:19 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-11 14:13:25 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:13:42 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-11 14:14:07 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable

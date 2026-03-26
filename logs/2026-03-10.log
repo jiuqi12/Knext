@@ -1,0 +1,54 @@
+2026-03-10 21:16:11 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 21:16:11 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 21:34:30 - Knext - [ERROR] - 获取集群概览失败：HTTPSConnectionPool(host='vip.k8s.com', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<HTTPSConnection(host='vip.k8s.com', port=16443) at 0x2a58c096770>, 'Connection to vip.k8s.com timed out. (connect timeout=None)'))
+2026-03-10 21:38:03 - Knext - [ERROR] - 获取集群概览失败：HTTPSConnectionPool(host='vip.k8s.com', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by NewConnectionError("HTTPSConnection(host='vip.k8s.com', port=16443): Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。"))
+2026-03-10 21:49:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 21:49:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 21:49:32 - Knext - [WARNING] - metrics-server 获取失败，使用估算方式：(404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c4f2876f-a4fe-44d1-9b03-d851eec62867, c4f2876f-a4fe-44d1-9b03-d851eec62867', 'Cache-Control': 'no-cache, private, no-cache, private', 'Content-Length': '174', 'Content-Type': 'application/json', 'Date': 'Tue, 10 Mar 2026 13:49:32 GMT', 'X-Kubernetes-Pf-Flowschema-Uid': '7dffc215-a1a3-4133-b75e-3752538126f9', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'b4056a24-691c-418a-b8c1-498fbd1b850d'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"the server could not find the requested resource","reason":"NotFound","details":{},"code":404}
+
+
+2026-03-10 21:49:32 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-10 21:49:39 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000022AE5559060>
+2026-03-10 21:49:39 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-10 21:49:39 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}]
+2026-03-10 21:49:40 - Knext - [INFO] - 开始获取命名空间，v1 client: <kubernetes.client.api.core_v1_api.CoreV1Api object at 0x0000022AE5559060>
+2026-03-10 21:49:40 - Knext - [INFO] - namespace_list 类型：<class 'kubernetes.client.models.v1_namespace_list.V1NamespaceList'>
+2026-03-10 21:49:40 - Knext - [INFO] - 成功获取命名空间：[{'name': 'default', 'status': 'Active'}, {'name': 'kube-node-lease', 'status': 'Active'}, {'name': 'kube-public', 'status': 'Active'}, {'name': 'kube-system', 'status': 'Active'}]
+2026-03-10 21:50:29 - Knext - [WARNING] - metrics-server 获取失败，使用估算方式：(404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '712b98d9-f39d-44d2-a88e-76350a46586d, 712b98d9-f39d-44d2-a88e-76350a46586d', 'Cache-Control': 'no-cache, private, no-cache, private', 'Content-Length': '174', 'Content-Type': 'application/json', 'Date': 'Tue, 10 Mar 2026 13:50:29 GMT', 'X-Kubernetes-Pf-Flowschema-Uid': '7dffc215-a1a3-4133-b75e-3752538126f9', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'b4056a24-691c-418a-b8c1-498fbd1b850d'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"the server could not find the requested resource","reason":"NotFound","details":{},"code":404}
+
+
+2026-03-10 21:50:29 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-10 21:51:09 - Knext - [WARNING] - metrics-server 获取失败，使用估算方式：(404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'aa38d456-05ad-454e-be42-e1d58cb4278b, aa38d456-05ad-454e-be42-e1d58cb4278b', 'Cache-Control': 'no-cache, private, no-cache, private', 'Content-Length': '174', 'Content-Type': 'application/json', 'Date': 'Tue, 10 Mar 2026 13:51:09 GMT', 'X-Kubernetes-Pf-Flowschema-Uid': '7dffc215-a1a3-4133-b75e-3752538126f9', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'b4056a24-691c-418a-b8c1-498fbd1b850d'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"the server could not find the requested resource","reason":"NotFound","details":{},"code":404}
+
+
+2026-03-10 21:51:09 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-10 21:59:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 21:59:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:25:15 - Knext - [WARNING] - metrics-server 获取失败，使用估算方式：(404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9dd3e804-2d21-41c0-b367-517c24e8947b, 9dd3e804-2d21-41c0-b367-517c24e8947b', 'Cache-Control': 'no-cache, private, no-cache, private', 'Content-Length': '174', 'Content-Type': 'application/json', 'Date': 'Tue, 10 Mar 2026 14:25:15 GMT', 'X-Kubernetes-Pf-Flowschema-Uid': '7dffc215-a1a3-4133-b75e-3752538126f9', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'b4056a24-691c-418a-b8c1-498fbd1b850d'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"the server could not find the requested resource","reason":"NotFound","details":{},"code":404}
+
+
+2026-03-10 22:25:16 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-10 22:37:48 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:37:48 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:37:49 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:37:49 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:42:50 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:42:50 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:42:51 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:42:51 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:44:26 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:44:26 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-10 22:44:33 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-10 22:44:33 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）

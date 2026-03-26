@@ -1,0 +1,80 @@
+2026-03-05 11:13:25 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 11:13:25 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 11:13:47 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 11:14:27 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：ingresses
+2026-03-05 11:18:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 11:18:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 11:18:25 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 11:18:25 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 11:23:24 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 11:23:24 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 11:41:59 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 11:43:04 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 11:43:09 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 11:43:09 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 11:44:47 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 11:45:09 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 11:53:02 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespaces
+2026-03-05 13:55:49 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-05 13:56:28 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-05 13:56:40 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-05 13:57:51 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：namespace
+2026-03-05 14:30:31 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 14:30:31 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 14:30:43 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-05 14:40:43 - Knext - [ERROR] - 获取命名空间失败：HTTPSConnectionPool(host='121.43.26.240', port=6443): Max retries exceeded with url: /api/v1/namespaces (Caused by ConnectTimeoutError(<HTTPSConnection(host='121.43.26.240', port=6443) at 0x219cd7186d0>, 'Connection to 121.43.26.240 timed out. (connect timeout=None)'))
+2026-03-05 14:44:35 - Knext - [ERROR] - 获取集群概览失败：HTTPSConnectionPool(host='121.43.26.240', port=6443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<HTTPSConnection(host='121.43.26.240', port=6443) at 0x219cd7192d0>, 'Connection to 121.43.26.240 timed out. (connect timeout=None)'))
+2026-03-05 14:47:47 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：undefined
+2026-03-05 15:12:51 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：undefined
+2026-03-05 15:12:53 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：undefined
+2026-03-05 15:12:56 - Knext - [ERROR] - 列出工作负载失败：不支持的资源类型：undefined
+2026-03-05 15:24:03 - Knext - [WARNING] - 获取事件失败：'CoreV1EventList' object is not iterable
+2026-03-05 16:07:08 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 16:07:08 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 17:22:52 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 17:22:52 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 17:23:13 - Knext - [ERROR] - 获取网络失败：'list' object is not callable
+2026-03-05 17:25:36 - Knext - [ERROR] - 获取网络失败：'list' object is not callable
+2026-03-05 17:29:04 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 17:29:04 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 17:32:52 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 17:32:52 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 17:32:54 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 17:32:54 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 17:35:07 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 17:35:07 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:25:40 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:25:40 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:25:41 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:25:41 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:26:06 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeSpec' object has no attribute 'resources'
+2026-03-05 18:27:27 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeSpec' object has no attribute 'resources'
+2026-03-05 18:27:29 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeSpec' object has no attribute 'resources'
+2026-03-05 18:28:06 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeSpec' object has no attribute 'resources'
+2026-03-05 18:30:42 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:30:42 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:30:44 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:30:44 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:30:45 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:30:45 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:33:10 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:33:10 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:33:12 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:33:12 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:33:13 - Knext - [ERROR] - 获取存储失败：'list' object has no attribute 'items'
+2026-03-05 18:33:33 - Knext - [ERROR] - 获取存储失败：'list' object has no attribute 'items'
+2026-03-05 18:34:51 - Knext - [ERROR] - 获取存储失败：'list' object has no attribute 'items'
+2026-03-05 18:35:02 - Knext - [ERROR] - 获取存储失败：'list' object has no attribute 'items'
+2026-03-05 18:35:32 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:35:32 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:35:33 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:35:33 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:35:34 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeClaimList' object is not iterable
+2026-03-05 18:35:35 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeClaimList' object is not iterable
+2026-03-05 18:35:36 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeClaimList' object is not iterable
+2026-03-05 18:35:37 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeClaimList' object is not iterable
+2026-03-05 18:35:38 - Knext - [ERROR] - 获取存储失败：'V1PersistentVolumeClaimList' object is not iterable
+2026-03-05 18:38:54 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:38:54 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
+2026-03-05 18:42:35 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
+2026-03-05 18:42:35 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）

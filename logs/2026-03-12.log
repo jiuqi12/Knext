@@ -1,8 +1,0 @@
-2026-03-12 21:45:59 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
-2026-03-12 21:45:59 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
-2026-03-12 21:52:12 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
-2026-03-12 21:52:12 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
-2026-03-12 21:52:16 - Knext - [INFO] - 成功加载本地 kubeconfig 配置
-2026-03-12 21:52:16 - Knext - [INFO] - K8s 客户端初始化成功（已禁用 SSL 验证）
-2026-03-12 21:57:24 - Knext - [INFO] - 开始获取日志：namespace=default, pod=nginx, container=None
-2026-03-12 21:57:24 - Knext - [INFO] - WebSocket 已接受连接：default/nginx

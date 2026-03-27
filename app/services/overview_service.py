@@ -42,13 +42,13 @@ class OverviewService:
             pod_total = len(pods.items)
 
             # 获取 pods 运行状态
-            pods_status = {
-                "running": len([pod for pod in pods.items if pod.status.phase == "Running"]),
-                "pending": len([pod for pod in pods.items if pod.status.phase == "Pending"]),
-                "failed": len([pod for pod in pods.items if pod.status.phase == "Failed"]),
-                "succeeded": len([pod for pod in pods.items if pod.status.phase == "Succeeded"]),
-                "unknown": len([pod for pod in pods.items if pod.status.phase == "Unknown"])
-            }
+            pods_status = [
+                {"title": "运行中", "type": "success" , "value": len([pod for pod in pods.items if pod.status.phase == "Running"])},
+                {"title": "等待中", "type": "primary" , "value": len([pod for pod in pods.items if pod.status.phase == "Pending"])},
+                {"title": "失败", "type": "warning" , "value": len([pod for pod in pods.items if pod.status.phase == "Failed"])},
+                {"title": "完成", "type": "info" , "value": len([pod for pod in pods.items if pod.status.phase == "Succeeded"])},
+                {"title": "未知", "type": "warning" , "value": len([pod for pod in pods.items if pod.status.phase == "Unknown"])}
+            ]
 
             # 获取所有的 deployment
             deployments = apps_v1.list_deployment_for_all_namespaces()
@@ -80,8 +80,8 @@ class OverviewService:
                     usage_mem += parse_mem(item['usage']['memory'])
 
                 # 计算百分比
-                percent_cpu = (usage_cpu / total_cpu) * 100
-                percent_mem = (usage_mem / total_mem) * 100
+                percent_cpu = round((usage_cpu / total_cpu) * 100, 2)
+                percent_mem = round((usage_mem / total_mem) * 100, 2)
 
             except ApiException as e:
                 logger.warning(f"metrics-server 不可用，请安装metrics-server{e}")
@@ -122,12 +122,12 @@ class OverviewService:
                     "cpu": {
                         "total_cpu": total_cpu,
                         "usage_cpu": usage_cpu,
-                        "percent_cpu": f"{percent_cpu}%"
+                        "percent_cpu": percent_cpu
                     },
                     "mem": {
                         "total_mem": total_mem,
                         "usage_mem": usage_mem,
-                        "percent_mem": f"{percent_mem}%"
+                        "percent_mem": percent_mem
                     }
                 },
                 "nodes_list": nodes_list,

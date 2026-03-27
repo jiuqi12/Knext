@@ -1,5 +1,9 @@
-# Virtual environment
+# 虚拟环境
 venv/
+.venv/
+env/
+.env/
+ENV/
 __pycache__/
 *.pyc
 *.pyo
@@ -14,11 +18,13 @@ __pycache__/
 *.zip
 *.tar.gz
 
-# test
+
+# 测试目录
 test/
 
 # log
 logs/
+*.log
 
 # Environment files
 .env
@@ -32,3 +38,7 @@ logs/
 *.swp
 *.swo
 *.swn
+
+# Windows
+Thumbs.db
+Desktop.ini

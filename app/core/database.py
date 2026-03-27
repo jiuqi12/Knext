@@ -8,7 +8,7 @@ TORTOISE_ORM = {
     "apps": {
         "models": {
             # 确保 user.py 文件放在 app/models/ 目录下
-            "models": ["app.models.user", "aerich.models"],
+            "models": ["app.models.user"],
             "default_connection": "default",
         }
     },

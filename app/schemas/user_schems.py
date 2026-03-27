@@ -13,16 +13,10 @@ class UserCreate(BaseModel):
     username: str
     password: str
     email: str
-    department: str
-
-    #
-    # class Config:
-    #     from_attributes = True
 
 
 # 用户更新校验
 class UserUpdate(BaseModel):
-    userid: str
     username: str
     password: str
 

@@ -1,14 +1,24 @@
-# 虚拟环境
-venv/
+# ── Python 虚拟环境 ──
 .venv/
+venv/
 env/
 .env/
 ENV/
+
+# ── Python 编译产物 ──
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *$py.class
+
+# ── Python 打包/分发 ──
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── 系统/编译二进制 ──
 *.so
 *.dll
 *.exe
@@ -18,27 +28,64 @@ __pycache__/
 *.zip
 *.tar.gz
 
-
-# 测试目录
-test/
-
-# log
-logs/
-*.log
-
-# Environment files
+# ── 环境变量 ──
 .env
 .env.local
 .env.development
 .env.production
+.env.*.local
 
-# IDE
+# ── 日志 ──
+logs/
+*.log
+
+# ── 数据库 ──
+*.db
+*.sqlite3
+db.sqlite3
+
+# ── Aerich 迁移缓存 ──
+.migrations/
+
+# ── Node.js (前端) ──
+ui/node_modules/
+ui/dist/
+ui/.vite/
+
+# ── 测试/覆盖率 ──
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# ── IDE ──
 .idea/
 .vscode/
 *.swp
 *.swo
 *.swn
+*~
 
-# Windows
+# ── Claude Code ──
+.claude/
+
+# ── 系统文件 ──
 Thumbs.db
 Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# ── ESLint / Prettier ──
+ui/.eslintcache
+
+# ── Docker ──
+docker-compose.override.yml
+
+# ── 临时文件 ──
+*.tmp
+*.bak
+*.orig

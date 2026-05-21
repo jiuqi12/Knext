@@ -10,6 +10,7 @@ class BaseResponse(BaseModel, Generic[T]):
     code: int = 200  # 状态码
     msg: str = "success"  # 信息
     data: Optional[T] = None  # 数据
+    request_id: Optional[str] = None  # 请求 ID，用于链路追踪
 
 # 200: 成功
 #

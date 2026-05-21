@@ -1,19 +1,19 @@
 from typing import Any, Dict
 from datetime import datetime
 from kubernetes.client.exceptions import ApiException
-from app.core.k8s_client import get_core_v1_api, get_apps_v1_api, get_custom_objects_api
+from app.core.k8s_client import K8sClientWrapper
 from app.utils.logger import logger
 from app.utils.parse import parse_cpu, parse_mem
 
 
 class OverviewService:
     @staticmethod
-    def get_overview() -> Dict[str, Any]:
+    async def get_overview(k8s_wrapper: K8sClientWrapper = None) -> Dict[str, Any]:
         """获取集群概览信息"""
         try:
-            v1 = get_core_v1_api()
-            apps_v1 = get_apps_v1_api()
-            custom_objects = get_custom_objects_api()
+            v1 = await k8s_wrapper.get_core_v1_api()
+            apps_v1 = await k8s_wrapper.get_apps_v1_api()
+            custom_objects = await k8s_wrapper.get_custom_objects_api()
 
             # 获取所有的 nodes
             nodes = v1.list_node()

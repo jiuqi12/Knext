@@ -1,14 +1,15 @@
 from kubernetes.client.exceptions import ApiException
-from app.core.k8s_client import get_apps_v1_api
+from app.core.k8s_client import K8sClientWrapper
 from typing import Dict, Any, List
 from app.utils.logger import logger
+from fastapi import Query
 
 
 class StatefulSetService:
     @staticmethod
-    def list_statefulsets(namespace: str = None) -> List[Dict[str, Any]]:
+    async def list_statefulsets(namespace: Query = None, k8s_wrapper: K8sClientWrapper = None) -> List[Dict[str, Any]]:
         try:
-            apps_v1 = get_apps_v1_api()
+            apps_v1 = await k8s_wrapper.get_apps_v1_api()
             if namespace:
                 sts_list = apps_v1.list_namespaced_stateful_set(namespace)
             else:
@@ -24,6 +25,14 @@ class StatefulSetService:
         except ApiException as e:
             logger.error(f"列出工作负载失败：{e}")
             raise
-        except Exception as e:
-            logger.error(f"列出工作负载失败：{e}")
+
+    @staticmethod
+    async def delete_statefulset(sts_name: str, namespace: str, k8s_wrapper: K8sClientWrapper = None):
+        try:
+            apps_v1 = await k8s_wrapper.get_apps_v1_api()
+            apps_v1.delete_namespaced_stateful_set(sts_name, namespace)
+            logger.info(f"删除 StatefulSet {sts_name} 成功")
+            return sts_name
+        except ApiException as e:
+            logger.error(f"删除 StatefulSet 失败：{e}")
             raise

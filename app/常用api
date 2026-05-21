@@ -1,0 +1,14 @@
+资源类型	                    API 类	                      删除方法名
+Deployment	        client.AppsV1Api()	           delete_namespaced_deployment
+Service         	client.CoreV1Api()	            delete_namespaced_service
+Pod             	client.CoreV1Api()	            delete_namespaced_pod
+Ingress	            client.NetworkingV1Api()	    delete_namespaced_ingress
+Namespace	        client.CoreV1Api()          	delete_namespace
+ConfigMap	        client.CoreV1Api()	            delete_namespaced_config_map
+
+
+常见的集群级资源包括这些，他们不需要传namespace参数
+Namespace 本身（你不能在一个命名空间里再套一个命名空间）
+Node（节点是物理或虚拟资源，属于整个集群）
+PersistentVolume (PV)（存储卷通常是全局的，虽然它常被绑定到特定命名空间的 PVC）
+ClusterRole / ClusterRoleBinding（全局权限控制）

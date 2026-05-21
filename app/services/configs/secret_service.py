@@ -1,4 +1,4 @@
-from app.core.k8s_client import get_core_v1_api
+from app.core.k8s_client import K8sClientWrapper
 from kubernetes.client.exceptions import ApiException
 from app.utils.logger import logger
 from typing import List, Dict, Any
@@ -6,14 +6,9 @@ from typing import List, Dict, Any
 
 class SecretService:
     @staticmethod
-    def list_secrets(namespace: str = None) -> List[Dict[str, Any]]:
-        """
-        获取 secrets 列表
-        :param namespace: 命名空间，可选
-        :return: secrets 列表
-        """
-        v1 = get_core_v1_api()
-        secret_list = []
+    async def list_secrets(namespace: str = None, k8s_wrapper: K8sClientWrapper = None) -> List[Dict[str, Any]]:
+        """获取 secrets 列表"""
+        v1 = await k8s_wrapper.get_core_v1_api()
         try:
             if namespace:
                 secret_list = v1.list_namespaced_secret(namespace).items
@@ -33,6 +28,32 @@ class SecretService:
         except ApiException as e:
             logger.error(f"获取 secrets 列表失败：{e}")
             raise
-        except Exception as e:
-            logger.error(f"获取 secrets 列表异常：{e}")
+
+    @staticmethod
+    async def get_secret(namespace: str, secret_name: str, k8s_wrapper: K8sClientWrapper = None) -> Dict[str, Any]:
+        """获取指定Secret的详细信息"""
+        try:
+            v1 = await k8s_wrapper.get_core_v1_api()
+            secret = v1.read_namespaced_secret(secret_name, namespace)
+            return {
+                "name": secret.metadata.name,
+                "namespace": secret.metadata.namespace,
+                "labels": secret.metadata.labels,
+                "creation_time": secret.metadata.creation_timestamp.strftime("%Y-%m-%d %H:%M:%S")
+            }
+        except ApiException as e:
+            logger.info(f"获取Secret失败：{e}")
+            raise
+
+    @staticmethod
+    async def delete_secret(secret_name: str, namespace: str, k8s_wrapper: K8sClientWrapper = None) -> Dict[str, Any]:
+        """删除指定Secret"""
+        try:
+            v1 = await k8s_wrapper.get_core_v1_api()
+            v1.delete_namespaced_secret(secret_name, namespace)
+            return {
+                "message": f"Secret {secret_name} 删除成功"
+            }
+        except ApiException as e:
+            logger.info(f"删除Secret失败：{e}")
             raise

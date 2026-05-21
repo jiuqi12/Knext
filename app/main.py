@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import logging
 from app.api.api import v1_router
 from tortoise.contrib.fastapi import register_tortoise
 from app.core.database import TORTOISE_ORM
+from app.middleware.request_id import RequestIDMiddleware
+from app.utils.Exception import register_exception_handlers
 
 app = FastAPI(title="K8s 可视化管理平台", description="K8s 可视化管理平台", version="0.1.0")
 
@@ -18,11 +19,17 @@ app.add_middleware(
     allow_headers=["*"],  # 允许所有 HTTP 头
 )
 
+# 注册请求 ID 中间件（每个请求生成唯一 ID，用于日志追踪）
+app.add_middleware(RequestIDMiddleware)
+
 register_tortoise(
     app,
     config=TORTOISE_ORM,
     # generate_schemas=True,      # 开发时自动生成表（生产环境务必设为 False！）
-    add_exception_handlers=True,    # 自动添加 ORM 异常处理器
+    add_exception_handlers=False,   # 禁用 Tortoise 内置异常处理器，由自定义处理器统一接管
 )
+
+# 注册全局异常处理器（统一错误响应格式和日志记录）
+register_exception_handlers(app)
 
 app.include_router(v1_router, prefix="/api")
